@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DemoNavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_valor1">Valor1</string>
+    <string name="hint_valor2">Valor2</string>
+    <string name="txt_soma">+</string>
+    <string name="txt_subtrcao">-</string>
+    <string name="txt_multiplicacao">*</string>
+    <string name="txt_divisao">/</string>
+</resources>
