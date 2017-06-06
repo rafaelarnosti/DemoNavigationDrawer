@@ -43,6 +43,11 @@ public class FormularioFragment extends Fragment implements View.OnClickListener
         Multiplicacao = (Button) itemView.findViewById(R.id.Multiplicacao);
         Divisao = (Button) itemView.findViewById(R.id.Divisao);
         Resultado = (TextView) itemView.findViewById(R.id.Resultado);
+
+        Soma.setOnClickListener(this);
+        Subtracao.setOnClickListener(this);
+        Divisao.setOnClickListener(this);
+        Multiplicacao.setOnClickListener(this);
         // Inflate the layout for this fragment
         return itemView;
     }
@@ -64,5 +69,6 @@ public class FormularioFragment extends Fragment implements View.OnClickListener
                 resultado = Integer.parseInt(valor1.getText().toString()) / Integer.parseInt(valor2.getText().toString());
                 break;
         }
+        Resultado.setText(String.valueOf(resultado));
     }
 }
